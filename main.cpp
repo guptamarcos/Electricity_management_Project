@@ -122,10 +122,10 @@ public:
   double calculateMonthlyCost(double tariff, int days)
   {
     monthlyEnergy =
-        calculateMonthlyEnergy(days);
+      calculateMonthlyEnergy(days);
 
     monthlyCost =
-        monthlyEnergy * tariff;
+      monthlyEnergy * tariff;
 
     return monthlyCost;
   }
